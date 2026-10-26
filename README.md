@@ -18,6 +18,10 @@ Found that overlapping return windows leak the target, rebuilt the shuffled time
 Final model: LightGBM on same-day market and group context. **0.5197** public accuracy vs **0.5079** benchmark.
 `Python` `LightGBM` `scikit-learn` `pandas` `pytest`
 
+**[German clean spark spread](https://github.com/atsez/de-clean-spark-spread)**
+A Python pipeline that joins German day-ahead power, TTF gas and EUA carbon prices and computes the clean spark spread, the margin a benchmark gas plant earns after fuel and carbon costs. Across 620 trading days the spread averaged -EUR 12.38/MWh, so a standard plant ran at a loss on 70% of days. Splitting the latest recovery by leg shows it was driven by power prices, not gas or carbon.
+*Python, pandas, matplotlib, pytest*
+
 ### Other work
 
 - Statistical arbitrage study on 435 mining and metal pairs, 0.96 out-of-sample Sharpe net of costs
