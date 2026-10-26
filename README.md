@@ -12,9 +12,14 @@ Plane-stress solver written from scratch, converging at exactly the rate theory 
 Arbitrage-free volatility surface fitted to a real Eurex option chain, feeding a C++ Monte Carlo simulator of a market maker managing inventory risk and informed traders. Leaning quotes against inventory cut P&L volatility 59% and drawdown 65% at almost no cost to profit.
 `C++` `Python` `OpenMP` `SciPy`
 
+### [QRT Data Challenge 2026](https://github.com/atsez/qrt-data-challenge-2026)
+Predicting whether systematic portfolios go up or down the next day (Qube Research & Technologies x Ecole Polytechnique).
+Found that overlapping return windows leak the target, rebuilt the shuffled timeline, and validated with purged time-blocked cross-validation.
+Final model: LightGBM on same-day market and group context. **0.5197** public accuracy vs **0.5079** benchmark.
+`Python` `LightGBM` `scikit-learn` `pandas` `pytest`
+
 ### Other work
 
-- QRT Data Challenge 2026, top 100 globally with a LightGBM equity return model
 - Statistical arbitrage study on 435 mining and metal pairs, 0.96 out-of-sample Sharpe net of costs
 - Programmed fully autonomous robots in Python and LabVIEW as captain of Iran's World Robot Olympiad national team, top 24 of 84 countries
 
