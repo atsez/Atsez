@@ -2,7 +2,7 @@
 
 Mechanical Engineering, Manchester Metropolitan University.
 
-I build at the intersection of engineering, financial markets and investment strategy, with a focus on models written from first principles and tested hard against real data, from Nasdaq order books and Eurex option chains to German power prices and stress in a plate with a hole.
+I build at the intersection of engineering, financial markets and investment strategy, with a focus on models written from first principles and tested hard against real data, from Nasdaq order books, Eurex option chains and UK gilts to German power prices and stress in a plate with a hole.
 
 ### Featured projects
 
@@ -13,6 +13,10 @@ Replicates a published result that order-flow imbalance explains 65% of short-te
 **[Euro Stoxx 50 options market-making simulator](https://github.com/atsez/sx5e-options-market-making)**
 Arbitrage-free volatility surface fitted to a real Eurex option chain, feeding a C++ Monte Carlo simulator of a market maker managing inventory risk and informed traders. Leaning quotes against inventory cut P&L volatility 59% and drawdown 65% at almost no cost to profit.
 `C++` `Python` `OpenMP` `SciPy`
+
+**[UK gilt 10s30s flattener](https://github.com/atsez/gilt-10s30s-flattener)**
+A rates relative-value trade built from first principles. A gilt pricer written from the cash flows matches Bloomberg to six decimals and shows the true carry is 38% worse than the usual spreadsheet shortcut, mostly from pull to par. Marked on Bank of England curve data since entry, the spread narrowed 27bp in three months for about 1.3 times the risk budget on paper. Ten years of history show the spread fails mean-reversion tests, so the win came from the discretionary case rather than a statistical edge.
+`Python` `pandas` `SciPy` `statsmodels` `pytest`
 
 **[QRT Data Challenge 2026](https://github.com/atsez/qrt-data-challenge-2026)**
 Predicting whether systematic portfolios go up or down the next day (Qube Research & Technologies x Ecole Polytechnique). Found that overlapping return windows leak the target, rebuilt the shuffled timeline, and validated with purged, time-blocked cross-validation. The signal turned out to be cross-sectional, so the final model averages six LightGBM models built on same-day market and group context.
