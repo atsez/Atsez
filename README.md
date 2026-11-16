@@ -1,8 +1,8 @@
 ## Atsez Ghoreyshinejad
 
-Mechanical Engineering, Manchester Metropolitan University.
 
-I build at the intersection of engineering, financial markets and investment strategy, with a focus on models written from first principles and tested hard against real data, from Nasdaq order books, Eurex option chains and UK gilts to German power prices and stress in a plate with a hole.
+
+I build at the intersection of engineering, financial markets and investment strategy, with a focus on models written from first principles and tested  against real data, from Nasdaq order books, Eurex option chains and UK gilts to German power prices and stress in a plate with a hole.
 
 ### Featured projects
 
