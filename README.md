@@ -15,7 +15,7 @@ Arbitrage-free volatility surface fitted to a real Eurex option chain, feeding a
 `C++` `Python` `OpenMP` `SciPy`
 
 **[UK gilt 10s30s flattener](https://github.com/atsez/gilt-10s30s-flattener)**
-A rates relative-value trade built from first principles. A gilt pricer written from the cash flows matches Bloomberg to six decimals and shows the true carry is 38% worse than the usual spreadsheet shortcut, mostly from pull to par. Marked on Bank of England curve data since entry, the spread narrowed 27bp in three months for about 1.3 times the risk budget on paper. Ten years of history show the spread fails mean-reversion tests, so the win came from the discretionary case rather than a statistical edge.
+A rates relative-value trade built from first principles. A gilt pricer written from the cash flows matches Bloomberg to five decimal places and shows the true carry is 38% worse than the usual spreadsheet shortcut, mostly from pull to par. Marked on Bank of England curve data since entry, the spread narrowed 27bp in three months for about 1.3 times the risk budget on paper. Ten years of history show the spread fails mean-reversion tests, so the win came from the discretionary case rather than a statistical edge.
 `Python` `pandas` `SciPy` `statsmodels` `pytest`
 
 **[QRT Data Challenge 2026](https://github.com/atsez/qrt-data-challenge-2026)**
